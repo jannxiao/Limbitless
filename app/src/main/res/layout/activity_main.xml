@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:paddingLeft="8dp"
+android:paddingTop="8dp"
+android:paddingRight="8dp"
+android:paddingBottom="8dp"
+android:background="#8089E3"
+android:weightSum="0"
+tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/tutorial_activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_weight="1"
+    android:background="#6BC14E"
+    android:paddingBottom="0dp"
+    android:text="Tutorial"
+    android:textColor="@android:color/white"
+    android:typeface="serif"
+    android:textSize="48sp"
+    android:textStyle="bold"/>
+
+<Button
+    android:id="@+id/start_activity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_weight="1"
+    android:background="#66B9E2"
+    android:text="Start"
+    android:textColor="@android:color/white"
+    android:typeface="serif"
+    android:textSize="48dp"
+    android:textStyle="bold" />
+
+</LinearLayout>

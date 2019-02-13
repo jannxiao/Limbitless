@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:paddingLeft="8dp"
+android:paddingTop="8dp"
+android:paddingRight="8dp"
+android:paddingBottom="8dp"
+android:weightSum="0"
+tools:context=".StartActivity">
+
+<Button
+    android:id="@+id/mNewProject"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_weight="1"
+    android:background="@android:color/holo_purple"
+    android:paddingBottom="0dp"
+    android:text="New Project"
+    android:textColor="@android:color/white"
+    android:typeface="serif"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/mCurrentProject"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_weight="1"
+    android:background="@android:color/holo_red_light"
+    android:text="Current Project"
+    android:textColor="@android:color/white"
+    android:typeface="serif"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+</LinearLayout>
