@@ -12,35 +12,35 @@ android:background="#8089E3"
 android:weightSum="0"
 tools:context=".MainActivity">
 
-<Button
-    android:id="@+id/tutorial_activity"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:layout_marginTop="8dp"
-    android:layout_marginBottom="8dp"
-    android:layout_weight="1"
-    android:background="#6BC14E"
-    android:paddingBottom="0dp"
-    android:text="Tutorial"
-    android:textColor="@android:color/white"
-    android:typeface="serif"
-    android:textSize="48sp"
-    android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_to_tutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:paddingBottom="0dp"
+        android:text="Tutorial"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
 
-<Button
-    android:id="@+id/start_activity"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:layout_marginTop="8dp"
-    android:layout_marginBottom="8dp"
-    android:layout_weight="1"
-    android:background="#66B9E2"
-    android:text="Start"
-    android:textColor="@android:color/white"
-    android:typeface="serif"
-    android:textSize="48dp"
-    android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_to_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_light"
+        android:text="Start"
+        android:textColor="@android:color/white"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
 
 </LinearLayout>
