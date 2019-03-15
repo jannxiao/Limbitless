@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="fill_parent"
-android:layout_height="fill_parent"
-android:orientation="vertical"
-android:paddingLeft="8dp"
-android:paddingTop="8dp"
-android:paddingRight="8dp"
-android:paddingBottom="8dp"
-android:background="#8089E3"
-android:weightSum="0"
-tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp"
+    android:weightSum="0"
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn_to_tutorial"
